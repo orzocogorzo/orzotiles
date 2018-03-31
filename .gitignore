@@ -1,4 +1,5 @@
 dev_dependencies/*
+data/*
 node_modules/*
-scheme_data/*
+schema_data/*
 psql-extensions/*

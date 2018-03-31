@@ -1,0 +1,51 @@
+{
+	"options": {
+		"paths": {
+			"root": "",
+			"fonts": "fonts",
+			"styles": "styles",
+			"mbtiles": "data"
+		},
+		"domains": [
+			"localhost:8080",
+			"127.0.0.1:8080"
+		],
+		"formatQuality": {
+			"jpeg": 80,
+			"webp": 90
+		},
+		"maxScaleFactor": 3,
+		"maxSize": 2048,
+		"pbfAlias": "pbf",
+		"serveAllFonts": false,
+		"serveStaticMaps": true
+	},
+	"styles": {
+			"dark-matter": {
+				"style": "dark-matter/style.json"
+			},
+			"toner": {
+				"style": "toner/style.json"
+			},
+			"fiord": {
+				"style": "fiord-color/style.json"
+			},
+			"osm-bright": {
+				"style": "osm-bright/style.json"
+			},
+			"positron": {
+				"style": "positron/style.json"
+			},
+			"klokantech": {
+				"style": "klokantech-basic/style.json"
+			},
+			"klokantech-3D": {
+				"style": "klokantech-3d/style.json"
+			}
+  },
+	"data": {
+		"bcn-vector": {
+      		"mbtiles": "bcn.mbtiles"
+    	}
+	}
+}
